@@ -106,7 +106,7 @@ export function App() {
                     <ThemeProvider theme={configuration.theme}>
                         <CssBaseline enableColorScheme />
 
-                        <AppBar position='relative'>
+                        <AppBar position='relative' sx={{ width: matches ? '700px' : 'auto' }}>
                             <Toolbar variant="dense">
                                 <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
                                     {/* Title */}
@@ -123,17 +123,9 @@ export function App() {
                             </Toolbar>
                         </AppBar>
 
-                        {
-                            matches
-                                ?
-                                <Box width={'700px'}>
-                                    <Courses />
-                                </Box>
-                                :
-                                <Box>
-                                    <Courses />
-                                </Box>
-                        }
+                        <Box width={matches ? '700px' : 'auto'}>
+                            <Courses />
+                        </Box>
                     </ThemeProvider>
                 </CacheProvider>
             </ConfigurationContext.Provider>

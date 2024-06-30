@@ -4,9 +4,110 @@
         "Title": "پایه",
         "Topics": [
             {
-                "Title": "first",
-                "Details": "Details"
+                "Title": "Bootstrap",
+                "Details": "چه اتفاقی می افتد وقتی کامپیوتر روشن می شود؟"
+            },
+            {
+                "Title": "CPU",
+                "Details": "شرح کلی عملکرد CPU و process و thread."
+            },
+            {
+                "Title": "حافظه",
+                "Details": "شرح کلی عملکرد حافظه."
+            },
+            {
+                "Title": "IO",
+                "Details": "شرح کلی عملکرد IO."
+            },
+            {
+                "Title": "شبکه",
+                "Details": "شرح کلی عملکرد شبکه."
+            },
+            {
+                "Title": "How internet works (WEB2)",
+                "Details": "مفاهیم مرتبت مثل url, requests, protocols, sockets and so on..."
+            },
+            {
+                "Title": "VMs and Containers",
+                "Details": "توضیحات کلی VM و Container."
+            },
+            {
+                "Title": "اصطلاحات",
+                "Details": "توضیحات مختصر درباره برخی اصطلاحات."
+            },
+            {
+                "Title": "Linux",
+                "Details": "فرمان های رایج در Linux و نحوه کار با برخی پروتوکولها مثل sFTP, SSH and SCP."
+            },
+            {
+                "Title": "مفاهیم کلی برنامه نویسی",
+                "Details": "شامل مفاهیمی همچون solid, dry, kiss, programming paradigms می شود."
+            },
+            {
+                "Title": "مقایسه زبان های برنامه نویسی.",
+                "Details": "مقایسه کاربدها و ویژگی هایشان."
             }
         ]
+    },
+    "JavascriptCourse": {
+        "Title": "Javascript",
+        "Topics": [
+            {
+                "Title": "محیط زبان js",
+                "Details": ""
+            },
+            {
+                "Title": "Variables and Constants",
+                "Details": ""
+            },
+            {
+                "Title": "Types in js",
+                "Details": ""
+            },
+            {
+                "Title": "زمان و تقویم پارسی",
+                "Details": "مدیریت زمان و تقپیم با استفاده از luxon."
+            },
+            {
+                "Title": "Operators",
+                "Details": ""
+            },
+            {
+                "Title": "Loops and control flow",
+                "Details": ""
+            },
+            {
+                "Title": "Functions",
+                "Details": ""
+            },
+            {
+                "Title": "DOM",
+                "Details": ""
+            },
+            {
+                "Title": "Classes",
+                "Details": ""
+            },
+            {
+                "Title": "Object oriented programming concept",
+                "Details": ""
+            },
+            {
+                "Title": "Events",
+                "Details": ""
+            },
+            {
+                "Title": "NPM, Typescript and webpack",
+                "Details": ""
+            }
+        ]
+    },
+    "DockerCourse": {
+        "Title": "Docker",
+        "Topics": []
+    },
+    "ExpressJSCourse": {
+        "Title": "ExpressJS",
+        "Topics": []
     }
 }

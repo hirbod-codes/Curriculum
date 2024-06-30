@@ -14,6 +14,12 @@ export function Courses() {
                 <Grid item xs={4}>
                     <Course courseName="JavascriptCourse" icon={<JavascriptOutlined />} />
                 </Grid>
+                <Grid item xs={4}>
+                    <Course courseName="ExpressJSCourse" disabled />
+                </Grid>
+                <Grid item xs={4}>
+                    <Course courseName="DockerCourse" disabled />
+                </Grid>
             </Grid>
         </>
     )

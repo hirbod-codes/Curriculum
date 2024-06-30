@@ -33,7 +33,7 @@
             },
             {
                 "Title": "Terminology",
-                "Details": "It's about number terms and what they mean in a simple way."
+                "Details": "Explains number of terms and what they mean in a simple way."
             },
             {
                 "Title": "Linux",
@@ -53,8 +53,8 @@
         "Title": "Javascript",
         "Topics": [
             {
-                "Title": "The language",
-                "Details": "It's properties and ecosystem"
+                "Title": "The language ecosystem",
+                "Details": ""
             },
             {
                 "Title": "Variables and Constants",
@@ -73,7 +73,7 @@
                 "Details": ""
             },
             {
-                "Title": "Loops and execution flow",
+                "Title": "Loops and control flow",
                 "Details": ""
             },
             {
@@ -101,5 +101,13 @@
                 "Details": ""
             }
         ]
+    },
+    "DockerCourse": {
+        "Title": "Docker",
+        "Topics": []
+    },
+    "ExpressJSCourse": {
+        "Title": "ExpressJS",
+        "Topics": []
     }
 }
