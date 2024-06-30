@@ -2,9 +2,7 @@
     "version": "0.2",
     "ignorePaths": [
         "cspell.json",
-        "src/react/Localization/Translations/",
-        "src/react/Lib/DateTime/astro.ts",
-        "src/react/Lib/DateTime/*-calendar.ts"
+        "src/Localization/Translations/Persian.json"
     ],
     "dictionaryDefinitions": [],
     "dictionaries": [],

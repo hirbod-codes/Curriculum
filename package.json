@@ -7,9 +7,11 @@
         "start": "webpack serve --config webpack.development.js"
     },
     "devDependencies": {
+        "@types/luxon": "^3.4.2",
         "@types/node": "^20.14.9",
         "@types/react": "^18.3.3",
         "@types/react-dom": "^18.3.0",
+        "@types/stylis": "^4.2.6",
         "copy-webpack-plugin": "^12.0.2",
         "css-loader": "^7.1.2",
         "html-webpack-plugin": "^5.6.0",
@@ -28,7 +30,13 @@
         "@fontsource/roboto": "^5.0.13",
         "@mui/icons-material": "^5.15.21",
         "@mui/material": "^5.15.21",
+        "i18next": "^23.11.5",
+        "luxon": "^3.4.4",
         "react": "^18.3.1",
-        "react-dom": "^18.3.1"
+        "react-dom": "^18.3.1",
+        "react-i18next": "^14.1.2",
+        "stylis": "^4.3.2",
+        "stylis-plugin-rtl": "^2.1.1",
+        "yup": "^1.4.0"
     }
 }

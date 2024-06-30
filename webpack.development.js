@@ -9,7 +9,7 @@ module.exports = merge(common, {
             logging: 'info',
             overlay: true,
         },
-        compress: true,
+        compress: false,
         open: true,
         static: './build',
     },
