@@ -66,7 +66,7 @@
             },
             {
                 "Title": "Dates and Persian Calendar",
-                "Details": ""
+                "Details": "It is demonstrated using luxon and custom code to convert calendars"
             },
             {
                 "Title": "Operators",
@@ -82,7 +82,7 @@
             },
             {
                 "Title": "DOM",
-                "Details": "It's about how we can manipulate DOM elements."
+                "Details": ""
             },
             {
                 "Title": "Classes",
