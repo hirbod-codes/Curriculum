@@ -1,0 +1,113 @@
+{
+    "Curriculum": "Curriculum",
+    "BasicCourse": {
+        "Title": "Basic",
+        "Topics": [
+            {
+                "Title": "Bootstrap",
+                "Details": "What happens when a computer is turned on?"
+            },
+            {
+                "Title": "CPU",
+                "Details": "A basic summary of how it works and about processes and threads."
+            },
+            {
+                "Title": "Memory",
+                "Details": "A basic description of Memory."
+            },
+            {
+                "Title": "IO",
+                "Details": "A basic description of IO."
+            },
+            {
+                "Title": "Network",
+                "Details": "A basic description of Network."
+            },
+            {
+                "Title": "How internet works (WEB2)",
+                "Details": "Related concepts like urls, requests, protocols, sockets and so on..."
+            },
+            {
+                "Title": "VMs and Containers",
+                "Details": "A basic description of VMs and Containers."
+            },
+            {
+                "Title": "Terminology",
+                "Details": "Explains number of terms and what they mean in a simple way."
+            },
+            {
+                "Title": "Linux",
+                "Details": "Basic Linux terminal commands and use of some protocols like sFTP, SSH and SCP."
+            },
+            {
+                "Title": "General programming concepts",
+                "Details": "consists concepts like solid, dry, kiss, programming paradigms."
+            },
+            {
+                "Title": "Compare programming languages",
+                "Details": "Compare their applications and properties."
+            }
+        ]
+    },
+    "JavascriptCourse": {
+        "Title": "Javascript",
+        "Topics": [
+            {
+                "Title": "The language ecosystem",
+                "Details": ""
+            },
+            {
+                "Title": "Variables and Constants",
+                "Details": ""
+            },
+            {
+                "Title": "Types in js",
+                "Details": ""
+            },
+            {
+                "Title": "Dates and Persian Calendar",
+                "Details": "It is demonstrated using luxon and custom code to convert calendars"
+            },
+            {
+                "Title": "Operators",
+                "Details": ""
+            },
+            {
+                "Title": "Loops and control flow",
+                "Details": ""
+            },
+            {
+                "Title": "Functions",
+                "Details": ""
+            },
+            {
+                "Title": "DOM",
+                "Details": "It's about how we can manipulate DOM elements."
+            },
+            {
+                "Title": "Classes",
+                "Details": ""
+            },
+            {
+                "Title": "Object oriented programming concept",
+                "Details": ""
+            },
+            {
+                "Title": "Events",
+                "Details": ""
+            },
+            {
+                "Title": "NPM, Typescript and webpack",
+                "Details": ""
+            }
+        ]
+    },
+    "DockerCourse": {
+        "Title": "Docker",
+        "Topics": []
+    },
+    "ExpressJSCourse": {
+        "Title": "ExpressJS",
+        "Topics": []
+    }
+}
