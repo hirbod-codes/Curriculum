@@ -1,5 +1,12 @@
 {
+    "Curriculum": "Curriculum",
     "BasicCourse": {
-        "Title": "Basic"
+        "Title": "Basic",
+        "Topics": [
+            {
+                "Title": "first",
+                "Details": "Details"
+            }
+        ]
     }
 }

@@ -1,5 +1,12 @@
 {
+    "Curriculum": "برنامه اموزشی",
     "BasicCourse": {
-        "Title": "پایه"
+        "Title": "پایه",
+        "Topics": [
+            {
+                "Title": "first",
+                "Details": "Details"
+            }
+        ]
     }
 }

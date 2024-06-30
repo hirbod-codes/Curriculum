@@ -110,6 +110,7 @@ export function App() {
                             <Toolbar variant="dense">
                                 <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
                                     {/* Title */}
+                                    {t('Curriculum')}
                                 </Typography>
 
                                 <IconButton size='medium' color='inherit' onClick={() => updateLocale(configuration.locale.calendar, configuration.locale.direction === 'ltr' ? 'rtl' : 'ltr', getReactLocale(configuration.locale.code) === enUS ? faIR : enUS)}>
