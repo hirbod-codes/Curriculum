@@ -11,13 +11,13 @@ export function Courses() {
                 <Grid item xs={12}>
                     <Course courseName="BasicCourse" icon={<SchoolOutlined />} />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={4}>
                     <Course courseName="JavascriptCourse" icon={<JavascriptOutlined />} />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={4}>
                     <Course courseName="ExpressJSCourse" disabled />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={4}>
                     <Course courseName="DockerCourse" disabled />
                 </Grid>
             </Grid>

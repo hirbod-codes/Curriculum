@@ -97,7 +97,8 @@ export function App() {
             });
     }
 
-    const matches = useMediaQuery(configuration.theme.breakpoints.down('sm'));
+    const xs = useMediaQuery(configuration.theme.breakpoints.down('xs'));
+    const sm = useMediaQuery(configuration.theme.breakpoints.down('sm'));
 
     return (
         <>
@@ -106,7 +107,7 @@ export function App() {
                     <ThemeProvider theme={configuration.theme}>
                         <CssBaseline enableColorScheme />
 
-                        <AppBar position='relative' sx={{ width: matches ? '700px' : 'auto' }}>
+                        <AppBar position='relative'>
                             <Toolbar variant="dense">
                                 <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
                                     {/* Title */}
@@ -123,9 +124,12 @@ export function App() {
                             </Toolbar>
                         </AppBar>
 
-                        <Box width={matches ? '700px' : 'auto'}>
+                        <Box>
                             <Courses />
                         </Box>
+
+                        {sm && 'sm'}
+                        {xs && 'xs'}
                     </ThemeProvider>
                 </CacheProvider>
             </ConfigurationContext.Provider>

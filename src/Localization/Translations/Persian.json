@@ -32,10 +32,6 @@
                 "Details": "توضیحات کلی VM و Container."
             },
             {
-                "Title": "اصطلاحات",
-                "Details": "توضیحات مختصر درباره برخی اصطلاحات."
-            },
-            {
                 "Title": "Linux",
                 "Details": "فرمان های رایج در Linux و نحوه کار با برخی پروتوکولها مثل sFTP, SSH and SCP."
             },
@@ -81,10 +77,6 @@
                 "Details": ""
             },
             {
-                "Title": "DOM",
-                "Details": ""
-            },
-            {
                 "Title": "Classes",
                 "Details": ""
             },
@@ -94,6 +86,10 @@
             },
             {
                 "Title": "Events",
+                "Details": ""
+            },
+            {
+                "Title": "DOM",
                 "Details": ""
             },
             {

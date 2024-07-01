@@ -32,10 +32,6 @@
                 "Details": "A basic description of VMs and Containers."
             },
             {
-                "Title": "Terminology",
-                "Details": "Explains number of terms and what they mean in a simple way."
-            },
-            {
                 "Title": "Linux",
                 "Details": "Basic Linux terminal commands and use of some protocols like sFTP, SSH and SCP."
             },
@@ -81,10 +77,6 @@
                 "Details": ""
             },
             {
-                "Title": "DOM",
-                "Details": ""
-            },
-            {
                 "Title": "Classes",
                 "Details": ""
             },
@@ -94,6 +86,10 @@
             },
             {
                 "Title": "Events",
+                "Details": ""
+            },
+            {
+                "Title": "DOM",
                 "Details": ""
             },
             {
