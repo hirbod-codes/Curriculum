@@ -97,9 +97,6 @@ export function App() {
             });
     }
 
-    const xs = useMediaQuery(configuration.theme.breakpoints.down('xs'));
-    const sm = useMediaQuery(configuration.theme.breakpoints.down('sm'));
-
     return (
         <>
             <ConfigurationContext.Provider value={{ get: configuration, set: { updateTheme, updateLocale, updateTimeZone } }}>
@@ -127,9 +124,6 @@ export function App() {
                         <Box>
                             <Courses />
                         </Box>
-
-                        {sm && 'sm'}
-                        {xs && 'xs'}
                     </ThemeProvider>
                 </CacheProvider>
             </ConfigurationContext.Provider>
