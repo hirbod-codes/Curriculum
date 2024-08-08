@@ -1,26 +1,15 @@
-import { Grid, Theme, useTheme } from "@mui/material";
-import Course from "./Course";
-import { JavascriptOutlined, SchoolOutlined } from "@mui/icons-material";
+import { Grid } from "@mui/material";
+import { Course } from "./Course";
+import English from "../Localization/Translations/English.json";
 
 export function Courses() {
-    const theme: Theme = useTheme()
-
     return (
-        <>
-            <Grid container spacing={1} p={1}>
-                <Grid item xs={12}>
-                    <Course courseName="BasicCourse" icon={<SchoolOutlined />} />
+        <Grid container spacing={1} p={1}>
+            {Object.entries(English.Courses).map((arr, i) =>
+                <Grid key={i} item xs={arr[1].xs} sm={arr[1].sm}>
+                    <Course courseKey={arr[0]} icon={arr[1]?.icon} disabled={arr[1].disabled} />
                 </Grid>
-                <Grid item xs={12} sm={4}>
-                    <Course courseName="JavascriptCourse" icon={<JavascriptOutlined />} />
-                </Grid>
-                <Grid item xs={12} sm={4}>
-                    <Course courseName="ExpressJSCourse" disabled />
-                </Grid>
-                <Grid item xs={12} sm={4}>
-                    <Course courseName="DockerCourse" disabled />
-                </Grid>
-            </Grid>
-        </>
+            )}
+        </Grid>
     )
 }

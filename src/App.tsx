@@ -1,8 +1,8 @@
 import createCache from '@emotion/cache';
 import { prefixer } from 'stylis';
 import rtlPlugin from 'stylis-plugin-rtl';
-import { CacheProvider, ThemeContext } from "@emotion/react";
-import { AppBar, Box, CssBaseline, IconButton, PaletteMode, ThemeProvider, Toolbar, Typography, createTheme, useMediaQuery } from "@mui/material";
+import { CacheProvider } from "@emotion/react";
+import { Box, AppBar, CssBaseline, IconButton, PaletteMode, ThemeProvider, Toolbar, Typography, createTheme, useMediaQuery } from "@mui/material";
 import { useState } from "react";
 import { Courses } from "./Courses/Courses";
 import { useTranslation } from "react-i18next";
@@ -23,13 +23,13 @@ const ltrCache = createCache({
     key: 'mui',
 });
 
-document.dir = 'rtl'
+document.dir = 'ltr'
 
 export function App() {
     const { t, i18n } = useTranslation();
 
     const initialThemeMode: PaletteMode = useMediaQuery('(prefers-color-scheme: dark)') ? 'dark' : 'light'
-    const getInitialLocale: Locale = ({ calendar: 'Persian', zone: 'Asia/Tehran', code: getLocale(faIR), direction: document.dir as Direction })
+    const getInitialLocale: Locale = ({ calendar: 'Persian', zone: 'Asia/Tehran', code: getLocale(enUS), direction: document.dir as Direction })
     const defaultConfiguration: ConfigurationData = {
         locale: getInitialLocale,
         themeMode: initialThemeMode,
