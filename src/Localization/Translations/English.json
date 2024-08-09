@@ -29,10 +29,6 @@
                     "Details": "Related concepts like urls, requests, protocols, sockets and so on..."
                 },
                 {
-                    "Title": "General programming concepts",
-                    "Details": "consists of concepts like solid, dry, kiss, programming paradigms."
-                },
-                {
                     "Title": "Compare programming languages",
                     "Details": "Compare their applications and properties."
                 }
@@ -87,7 +83,7 @@
                 },
                 {
                     "Title": "Object oriented programming concept",
-                    "Details": ""
+                    "Details": "consists of concepts like solid, dry, kiss, abstraction, encapsulation, inheritance, polymorphism."
                 },
                 {
                     "Title": "Events",

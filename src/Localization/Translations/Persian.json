@@ -25,10 +25,6 @@
                     "Details": "مفاهیم مرتبت مثل url, requests, protocols, sockets and so on..."
                 },
                 {
-                    "Title": "مفاهیم کلی برنامه نویسی",
-                    "Details": "اشاره به مفاهیمی همچون solid, dry, kiss, programming paradigms."
-                },
-                {
                     "Title": "مقایسه زبان های برنامه نویسی",
                     "Details": "مقایسه کاربدها و ویژگی هایشان."
                 }
@@ -79,7 +75,7 @@
                 },
                 {
                     "Title": "Object oriented programming concept",
-                    "Details": ""
+                    "Details": "اشاره به مفاهیمی همچون solid, dry, kiss, abstraction, encapsulation, inheritance, polymoriphism."
                 },
                 {
                     "Title": "Events",
